@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Saim</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark-mode" data-page="contact">
+    <header class="site-header glass-blur sticky">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">S</span>
+          <span class="logo-text">Saim</span>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav">
+          <a href="profile.html" class="nav-link">Profile</a>
+          <a href="goals.html" class="nav-link">Career Goals</a>
+          <a href="projects.html" class="nav-link">Projects</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <span class="theme-icon theme-icon-moon">☾</span>
+          <span class="theme-icon theme-icon-sun">☼</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="section container">
+        <header class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h1 class="section-title">Let’s Talk</h1>
+          <p class="section-subtitle">
+            Whether it’s a project idea, a collaboration, or just a question about my work, drop a message below.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <article class="card glass-blur">
+            <h2 class="card-title">Contact Form</h2>
+            <form id="contact-form" novalidate>
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" />
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" />
+              </div>
+
+              <div class="field">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What is this about?" />
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Share some details (at least 10 characters)…"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn primary full-width">Send Message</button>
+            </form>
+          </article>
+
+          <article class="card glass-blur">
+            <h2 class="card-title">Direct Contact</h2>
+            <p class="card-body">
+              Prefer reaching out directly? Here are my primary contact details. Feel free to connect for opportunities,
+              questions, or feedback on my projects.
+            </p>
+
+            <div class="contact-info">
+              <div class="contact-row">
+                <span class="contact-label">Email</span>
+                <a href="mailto:saimkhanwah@gmail.com" class="contact-value">saimkhanwah@gmail.com</a>
+              </div>
+              <div class="contact-row">
+                <span class="contact-label">Phone</span>
+                <a href="tel:+92329866456" class="contact-value">+92 329 866456</a>
+              </div>
+            </div>
+
+            <div class="contact-pill-row">
+              <span class="pill">Open to internships</span>
+              <span class="pill pill-outline">Frontend & Technical Sales roles</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="cursor-dot"></div>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 Saim. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/saimbuilds" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/saimsys/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+

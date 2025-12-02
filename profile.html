@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile | Saim</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark-mode" data-page="profile">
+    <header class="site-header glass-blur sticky">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">S</span>
+          <span class="logo-text">Saim</span>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav">
+          <a href="profile.html" class="nav-link">Profile</a>
+          <a href="goals.html" class="nav-link">Career Goals</a>
+          <a href="projects.html" class="nav-link">Projects</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <span class="theme-icon theme-icon-moon">☾</span>
+          <span class="theme-icon theme-icon-sun">☼</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="section container">
+        <header class="section-header">
+          <p class="eyebrow">Profile</p>
+          <h1 class="section-title">Who I Am</h1>
+          <p class="section-subtitle">
+            A Computer Science student with a passion for building interfaces and explaining technology in simple, human language.
+          </p>
+        </header>
+
+        <div class="profile-layout">
+          <div class="profile-photo-section">
+            <article class="card glass-blur profile-photo-card">
+              <div class="profile-photo-wrapper" id="profile-photo-area">
+                <img src="./pfp.jpg" alt="Portrait of Saim" class="profile-photo" />
+                <div class="profile-photo-overlay">
+                  <div class="profile-photo-follow" id="profile-photo-follow">
+                    <a
+                      href="https://www.linkedin.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="profile-photo-link"
+                      aria-label="Visit my LinkedIn profile"
+                    >
+                      in
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p class="profile-photo-caption">CS Student · FAST NUCES · Frontend & Technical Sales</p>
+            </article>
+          </div>
+
+          <div class="profile-grid">
+            <article class="card glass-blur">
+            <h2 class="card-title">Bio</h2>
+            <p class="card-body">
+              I am a CS student at <strong>FAST NUCES (Islamabad)</strong>, exploring the space where
+              user experience, frontend engineering, and business impact intersect. I love taking ideas from a simple
+              wireframe to a polished, interactive experience on the web.
+            </p>
+          </article>
+
+          <article class="card glass-blur">
+            <h2 class="card-title">Experience</h2>
+            <p class="card-body">
+              I recently joined <strong>Mety Technology</strong> as a
+              <strong>Technical Sales Representative</strong>, where I translate complex technical capabilities into
+              clear value for clients. This role lets me combine my frontend skills with product storytelling, demos,
+              and solution-based conversations.
+            </p>
+          </article>
+
+          <article class="card glass-blur">
+            <h2 class="card-title">What I Bring</h2>
+            <ul class="profile-list">
+              <li>Ability to speak both “developer” and “customer” fluently.</li>
+              <li>Strong fundamentals in HTML, CSS, JavaScript, and modern UI patterns.</li>
+              <li>Comfort presenting, demoing, and breaking down technical concepts.</li>
+              <li>A mindset focused on learning, iteration, and shipping polished work.</li>
+            </ul>
+          </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="cursor-dot"></div>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 Saim. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/saimbuilds?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/saimsys/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
